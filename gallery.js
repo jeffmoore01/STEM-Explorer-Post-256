@@ -21,11 +21,3 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
-
-// document.querySelector('#app').innerHTML = `
-// <div>
-// let d = new Date();
-// <h1>test</h1>
-// </div>`
-//let d = new Date(); 
-//document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"
