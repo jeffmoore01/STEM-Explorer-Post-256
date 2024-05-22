@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
 <title>Explore Post 256 Calendar</title>
 <style>
   body {
@@ -158,3 +159,38 @@
 
 </body>
 </html>
+=======
+<title>Image Gallery</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="gallery-container">
+    <div class="gallery-main">
+        <img width="70%" height="70%" id="mainImage" src="gallery_images/patriotic.jpg" alt="Main Image">
+      </div>
+  <div class="gallery-thumbnails">
+    <img width="250" height="250" src="gallery_images/patiotic_gun.jpg" alt="1" onclick="displayImage('gallery_images/patiotic_gun.jpg')" onkeydown="handleKeyPress('gallery_images/patiotic_gun.jpg')" tabindex="0">
+    <img width="250" height="250" src="gallery_images/lady_liberty.jpg" alt="2" onclick="displayImage('gallery_images/lady_liberty.jpg')" onkeydown="handleKeyPress('gallery_images/lady_liberty.jpg')" tabindex="0">
+    <img width="250" height="250" src="gallery_images/patriotic_McDonalds.jpg" alt="3" onclick="displayImage('gallery_images/patriotic_McDonalds.jpg')" onkeydown="handleKeyPress('gallery_images/patriotic_McDonalds.jpg')" tabindex="0">
+    <img width="250" height="250" src="gallery_images/patriotic.jpg" alt="4" onclick="displayImage('gallery_images/patriotic.jpg')" onkeydown="handleKeyPress('gallery_images/patriotic.jpg')" tabindex="0">
+    <img width="250" height="250" src="gallery_images/sig_mcx_spear.jpg" alt="5" onclick="displayImage('gallery_images/sig_mcx_spear.jpg')" onkeydown="handleKeyPress('gallery_images/sig_mcx_spear.jpg')" tabindex="0">
+  </div>
+ 
+</div>
+ 
+<script   >
+    function displayImage(imagePath) {
+  console.log("Image Path:", imagePath);
+  document.getElementById('mainImage').src = imagePath;
+}
+ 
+function handleKeyPress(imagePath) {
+  if (event.keyCode === 13 || event.keyCode === 32) { // Check for Enter key or Spacebar
+    displayImage(imagePath);
+  }
+}
+</script>
+</body>
+</html>
+ 
+>>>>>>> be9ea67df23fc7a0cd4f4ab7ea1802c65f1b547f

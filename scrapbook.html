@@ -10,5 +10,24 @@
     <div id="app">
       STEM Explorer Post 256 Scrapbook/Gallery Page
     </div>
+    <div>
+      <img width="700" height="700" src="gallery images/lady liberty.jpg"
+       id="mainImage"></img>
+    </div>
+    <div>
+      <img width="100" height="100" src="gallery images/lady liberty.jpg" onclick="displayImage('gallery images/lady liberty.jpg')"></img>></img>
+      <img width="100" height="100" src="gallery images/patiotic gun.jpg" onclick="displayImage('gallery images/patiotic gun.jpg')"></img>></img>
+      <img width="100" height="100" src="gallery images/patriotic McDonalds.jpg" onclick="displayImage('gallery images/patriotic McDonalds.jpg')"></img>></img>
+      <img width="100" height="100" src="gallery images/patriotic.jpg" onclick="displayImage('gallery images/patriotic.jpg')"></img>></img>
+      <img width="100" height="100" src="gallery images/sig mcx spear.jpg" 
+      onclick="displayImage('gallery images/sig mcx spear.jpg')"></img>
+    </div>
+    
+    <!-- <script type="module" src="./gallery.js"></script> -->
+  <script>
+      function displayImage(imagePath) {
+        document.getElementById('mainImage').src = imagePath;
+      }
+  </script>
   </body>
 </html>
