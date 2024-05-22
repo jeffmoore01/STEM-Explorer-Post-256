@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trebuchet Projects</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #add8e6; /* Baby blue background */
+    }
+    .container {
+      width: 80%;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+    }
+    .content {
+      padding: 20px;
+    }
+    .black-box {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Trebuchet Projects</h1>
+  <div class="content">
+    <div class="black-box">
+      <p>Our leaders provided us with trebuchet kits that became the cornerstone of our learning and development. Through these kits, we honed our skills and knowledge, mastering the art of building and designing these marvelous machines.</p>
+      <p>Caleb and Aurora played pivotal roles in guiding us through this journey. Their expertise and dedication helped us transform simple kits into awe-inspiring projects, teaching us valuable lessons along the way.</p>
+      <p>Finally, they revealed the essence of a true trebuchet, unraveling its mechanics and demonstrating its power. This experience not only enriched our understanding but also ignited our passion for engineering and innovation.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
